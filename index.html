@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		<meta name="description" content="Just one page about nice cakes!">
+		<meta name="keywords" content="cakes, cookies, recipes, food">
+		<meta name="author" content="Daria">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Week 4 assignment</title>
+		<!-- include bootstrap and jquery -->
+		<link rel="stylesheet" type="text/css" href="bootstrap.css"/>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<!-- and my own style and script files -->
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- header and greeting to the user -->
+			<h1>Interactive page</h1>
+			<p id="userName">&nbsp; </p><hr>
+
+			<!-- slider -->
+			<div class="row">
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-10">
+					<img src="images/1.png" class="sliderImage">
+				</div>
+				<div class="col-md-1">
+				</div>
+			</div>
+			<!-- activity description -->
+			<p class="description">You can click on image from the current slide and open a recipe of this cake!<br>Or you can choose any from the list below and click on its name to read!</p>
+			<button type="button" class="btn btn-default" id="description">Read more about functionality</button>
+		</div>
+
+		<!-- accordion elements -->
+		<!-- elements 1-2 -->
+		<div class="row">
+			<div class="col-md-6">
+				<div class="accordion">
+					<h2 class="header accH1">Cheesecakes</h2>
+					<div class="accContent1">
+						<img src="images/1.png" class="descImg" id="image1">
+						<h4>Mascarpone & pineapple cheesecake</h4>
+						<p class="descText">
+							<b>For the base:</b><br>40g butter<br>100g oatcakes, crushed to crumbs
+							<br>25g toasted desiccated coconut<hr><b>For the topping:</b><br>
+							425g can pineapple in natural juice, drained<br>5 leaves gelatine<br>
+							250g tub reduced fat mascarpone<br>500g tub fromage frais 
+							(full fat version)<br>160g can coconut cream<br>grated zest ½ lemon
+						</p>
+						<div id="takenFrom">
+							<a href="http://www.bbcgoodfood.com/recipes/mascarpone-pineapple-cheesecake">Was taken from this page</a>
+						</div>
+						<button type="button" class="btn btn-default" id="accH1">Hide text</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="accordion">
+					<h2 class="header accH2">Biscuits</h2>
+					<div class="accContent2">
+						<img src="images/2.png" class="descImg" id="image2">
+						<h4>Lemon and almond ricotta biscuits</h4>
+						<p class="descText"><b>Ingridients:</b><br>200g fresh ricotta<br>
+							60g unsalted butter, softened<br>3/4 cup caster sugar<br>
+							2 teaspoons finely grated lemon rind<br>1 egg<br>1 cup plain flour<br>
+							1/2 teaspoon baking powder<br>1/2 cup almond meal<br>
+							1/3 cup natural sliced almonds, lightly toasted<hr><b>Lemon icing:</b>
+							<br>1 cup pure icing sugar, sifted<br>1 1/2 tablespoons lemon juice<br>
+							15g butter, softened
+						</p>
+						<div id="takenFrom">
+							<a href="http://www.taste.com.au/recipes/33522/lemon+and+almond+ricotta+biscuits?ref=collections,cookies-biscuit-recipes">Was taken from this page</a>
+						</div>
+						<button type="button" class="btn btn-default" id="accH2">Hide text</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- elements 3-4 -->
+		<div class="row">
+			<div class="col-md-6">
+				<div class="accordion">
+					<h2 class="header accH3">Cookies</h2>
+					<div class="accContent3">
+						<img src="images/3.png" class="descImg" id="image3">
+						<h4>Raspberry jam heart cookies</h4>
+						<p class="descText"><b>Ingridients:</b><br>1 1/2 cups (225g) plain flour<br>
+							3/4 cup (85g) almond meal<br>1/3 cup (60g) icing sugar mixture<br>
+							125g chilled butter, chopped<br>1 egg<br>1 tablespoon milk<br>
+							100g dark chocolate<br>1 cup (315g) raspberry jam<br>2 tablespoons water
+						</p>
+						<div id="takenFrom">
+							<a href="http://www.taste.com.au/recipes/19012/raspberry+jam+heart+cookies?ref=collections,cookies-biscuit-recipes">Was taken from this page</a>
+						</div>
+						<button type="button" class="btn btn-default" id="accH3">Hide text</button>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-6">
+				<div class="accordion">
+					<h2 class="header accH4">Macarons</h2>
+					<div class="accContent4">
+						<img src="images/4.png" class="descImg" id="image4">
+						<h4>After-dinner mint macarons</h4>
+						<p class="descText"><b>Ingridients:</b><br>
+							1 1/4 cups almond meal (ground almonds)</p>
+							<br>1 1/2 cups pure icing sugar<br>4 eggwhites<br>
+							1/4 cup caster sugar<br>2 tablespoons cocoa powder, sifted<hr>
+							<b>Filling:</b><br>90g dark chocolate, chopped<br>
+							2 tablespoons thickened cream<br>1/2 teaspoon peppermint essence
+						<div id="takenFrom">
+							<a href="http://www.taste.com.au/recipes/25725/after+dinner+mint+macarons?ref=collections,cookies-biscuit-recipes">Was taken from this page</a>
+						</div>
+						<button type="button" class="btn btn-default" id="accH4">Hide text</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- elements 5-6 -->
+		<div class="row">
+			<div class="col-md-6">
+				<div class="accordion">
+					<h2 class="header accH5">Shortbreads</h2>
+					<div class="accContent5">
+						<img src="images/5.png" class="descImg" id="image5">
+						<h4>Almond shortbreads</h4>
+						<p class="descText"><b>Ingridients:</b><br>40g (1/4 cup) slivered almonds
+							<br>125g unsalted butter, cubed, at room temperature<br>
+							1 1/2 tablespoons icing sugar mixture, sifted<br>1 tablespoon brandy<br>
+							200g (1 1/3 cups) plain flour<br>36 whole cloves<br>
+							1/2 teaspoon rosewater essence<br>
+							230g (1 1/2 cups) icing sugar mixture, extra
+						</p>
+						<div id="takenFrom">
+							<a href="http://www.taste.com.au/recipes/12456/almond+shortbreads?ref=collections,cookies-biscuit-recipes">Was taken from this page</a>
+						</div>
+						<button type="button" class="btn btn-default" id="accH5">Hide text</button>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-6">
+				<div class="accordion">
+					<h2 class="header accH6">Pies</h2>
+					<div class="accContent6">
+						<img src="images/6.png" class="descImg" id="image6">
+						<h4>Apple pie</h4>
+						<p class="descText"><b>Ingridients:</b><br>
+							1.5kg Granny Smith apples, peeled, cored, thinly sliced<br>
+							60ml (1/4 cup) fresh lemon juice<br>70g (1/3 cup) caster sugar<br>
+							2 teaspoons cornflour<br>1 tablespoon water<br>
+							1 egg yolk, lightly whisked<br>Cream or ice-cream, to serve<hr>
+							<b>Brown sugar pastry:</b><br>300g (2 cups) plain flour<br>
+							45g (1/4 cup, lightly packed) brown sugar<br>
+							200g chilled butter, chopped<br>2 tablespoons chilled water
+						</p>
+						<div id="takenFrom">
+							<a href="http://www.taste.com.au/recipes/20272/apple+pie?ref=collections,cookies-biscuit-recipes">Was taken from this page</a>
+						</div>
+						<button type="button" class="btn btn-default" id="accH6">Hide text</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- footer -->
+		<div class="footer">
+			<hr>
+			<p><span class="warningBrowser">This page was tested in Chrome. If you can't see or use any feature, try to open this page in Chrome. Some features like gradient may not work in other browsers.</span><br>This page was built as coursework for Goldsmiths, University of London.<br>2015</p>
+		</div>
+	</body>
+</html>

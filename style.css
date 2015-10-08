@@ -1,0 +1,89 @@
+/*general style*/
+h1{ color: #51004C; }
+hr{
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #fff, #666, #fff);
+}
+.container{
+	text-align: center;
+	background: linear-gradient(to right, #fff, #eef, #fff);
+}
+/*message about available functions on this site*/
+.description{ color: #BB78FF; }
+.description:hover{ color: #65002D; }
+#description{ background-color: #BB78FF; color: #eef; }
+#description:hover{ background-color: #ddf; color: #65002D;}
+
+.sliderImage{
+	width:50%;
+	height: 250px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/*accordion elements*/
+.accordion{ padding-left: 15px; }
+h2{
+	height: 50px;
+	color: #51004C;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 8px;
+	background: linear-gradient(to right, #eef, #ccf);
+}
+h2:hover{
+	background: #99f;
+	color: white;
+}
+.accContent1, .accContent2, .accContent3, .accContent4, .accContent5, .accContent6{ display: none; }
+.descImg{
+	width: 20%;
+	float: left;
+	padding: 10px;
+}
+#takenFrom {
+	text-align: center;
+	padding-bottom: 20px;
+}
+a{
+	text-decoration: none;
+	color: #BB78FF;
+}
+a:hover { 
+	color: #65002D; 
+	text-decoration: none;
+	font-family: monospace;
+}
+.btn{
+	width: 100%;
+	border-width: 0px;
+	background-color: #F4E8FF;
+}
+
+/*footer*/
+.footer{
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+}
+.warningBrowser{
+	display: none;
+	color: red;
+}
+
+
+/*for help page*/
+.mainList{
+	padding: 15px;
+}
+.num{
+	font-size: +1;
+	color: #BB78FF;
+}
+.imageList{
+	text-align: center;
+	display: block;
+}
+.imageList img{ width: 30%; }
+.imageList img:hover{ width: 80%; }
